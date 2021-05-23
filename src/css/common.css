@@ -1,0 +1,60 @@
+.pl0 {
+  padding-left: 0; }
+
+.mb45 {
+  margin-bottom: 45px; }
+
+.imgwrap img {
+  width: 100%; }
+
+header {
+  padding-top: 50px; }
+  header .navbar-default {
+    background-color: #222222;
+    border: none; }
+    header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:hover {
+      background-color: #080808;
+      color: #fff; }
+    header .navbar-default .navbar-nav > li > a {
+      color: #9d9d9d; }
+  header .navbar {
+    margin-bottom: 0; }
+  header .navbar-brand {
+    padding: 7px 6px; }
+  header .bgwrap {
+    background-color: #2b80d9; }
+
+.dibu {
+  padding-top: 40px;
+  background: #3b3b3b;
+  height: 113px; }
+  .dibu .dibubox > p {
+    display: inline;
+    font-size: 0; }
+    .dibu .dibubox > p a {
+      color: #a1a3ab;
+      font-size: 15px; }
+      .dibu .dibubox > p a:hover {
+        color: white; }
+  .dibu .dibubox > div {
+    font-size: 15px; }
+    .dibu .dibubox > div a {
+      color: #a1a3ab; }
+  .dibu .dibuicon > p {
+    display: inline;
+    font-size: 0;
+    float: right;
+    position: relative; }
+    .dibu .dibuicon > p a {
+      display: inline-block;
+      height: 38px;
+      width: 38px;
+      background: url(../img/footer.png) no-repeat scroll 0% 0% transparent;
+      margin-right: 15px; }
+    .dibu .dibuicon > p img {
+      display: none;
+      position: absolute;
+      left: -50px;
+      bottom: 60px; }
+    .dibu .dibuicon > p:hover img {
+      display: block; }

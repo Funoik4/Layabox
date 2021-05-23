@@ -1,0 +1,394 @@
+@charset "utf-8";
+@import "common";
+.pl0{
+    padding-left: 0;
+}
+.mb45{
+    margin-bottom:45px ;
+}
+.imgwrap{
+    img{
+        width:100%;
+    }
+}
+//header{
+//  padding-top: 50px;
+//  .navbar-default{
+//      background-color: #222222;
+//      border:none;
+//      .navbar-nav{
+//          >.active{
+//              >a{
+//                  &,&:hover{
+//                  background-color: #080808;
+//                  color: #fff;
+//                  }
+//              }
+//          }
+//          >li{
+//              >a{
+//                  color: #9d9d9d;
+//              }
+//          }
+//      }
+//  }
+//  .navbar{
+//      margin-bottom: 0;
+//  }
+//  .navbar-brand{
+//      padding: 7px 6px;
+//  }
+//  .bgwrap{
+//      background-color:#2b80d9 ;
+//  }
+//}
+.enginewrap{
+    background-color: #fbfaf7;
+    height: 640px;
+    padding-top: 106px;
+    >.container{
+        background: url(../img/flash-bg.jpg) no-repeat right;
+        padding: 40px 0;
+        background-position:100% 100% ;
+    }
+    h2{
+        font-size: 48px;
+        color: #0078d7;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    h3{
+        font-size: 30px;
+        color: #666;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .enginetitle{
+        padding-bottom: 80px;
+    }
+    .iconwrap{
+        float: left;
+        width: 64px;
+        height: 64px;
+        border-radius: 4px;
+        background-color: #0078d7;
+        transition: all .4s;
+        &:hover{
+            transform: rotate(360deg);
+            background-color: #ccc;
+        }
+    }
+    .textwrap{
+        p{
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 0;
+        }
+        span{
+            color: #666;
+            line-height: 24px;
+        }
+    }
+}
+.youshi{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    .container{
+        .youshitu{
+            float: left;
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        .youshi01{
+            background: url(../img/ad01.png);
+            background-color: #8fc31f;
+        }
+        .youshi02{
+            background: url(../img/ad02.png);
+            background-color: #8fc31f;
+        }
+        .youshi03{
+            background: url(../img/ad03.png);
+            background-color: #8fc31f;
+        }
+        .youshi04{
+            background: url(../img/ad04.png);
+            background-color: #8fc31f;
+        }
+        .youshiwenzi{
+            width: 80%;
+            >p{
+                padding-top: 18px;
+            }
+        }
+        .youshineirong{
+            padding-top: 15px;
+        }
+        .youshizuotu{
+            padding-top: 100px;
+            img{
+                width:312px;
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+        h2{
+            color: #8fc31f;
+            font-size: 46px;
+            font-weight: bold;
+            padding-bottom: 45px;
+        }
+    }
+}
+.chanpinjiazu{
+    background: #0079d7;
+    h2{
+        padding-top: 115px;
+        color: white;
+        font-size: 48px;
+    }
+    .jiazu01{
+        background: url("../img/pro001.png") center no-repeat;
+        height: 110px;
+    }
+    .chanpin01{
+        font-size: 16px;
+        color: white;
+        h4{
+            font-size: 26px;
+        }
+    }
+    .jiazubox{
+        height: 180px;
+    }
+    .jiazu02{
+        background: url("../img/pro002.png") center no-repeat;
+        height: 110px;
+    }
+    .jiazu03{
+        background: url("../img/pro003.png") center no-repeat;
+        height: 110px;
+    }
+    .jiazu04{
+        background: url("../img/pro004.png") center no-repeat;
+        height: 110px;
+    }
+    .jiazu05{
+        background: url("../img/pro005.png") center no-repeat;
+        height: 110px;
+    }
+    .jiazu06{
+        background: url("../img/pro006.png") center no-repeat;
+        height: 110px;
+    }
+}
+.youxi{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        font-size: 33px;
+        font-weight: bold;
+        padding-top: 28px;
+    }
+    .gengduo{
+        padding-top: 50px;
+        a{
+            float: right;
+            font-size: 15px;
+            color: black;
+        }
+    }
+    .video{
+        background: url(../img/shipin.jpg) no-repeat;
+        height: 200px;
+        border-radius: 4px;
+        margin-left: 15px;
+//      &:hover{
+//          video{
+//              display: block;
+//          }
+//      }
+        video{
+            display: none;
+        }
+    }
+    .youxitu{
+        overflow: hidden;
+        .youxibox{
+            img{
+                width: 67px;
+                height: 67px;
+            }
+            &:hover{
+                img{
+                    opacity: 0.8;
+                }
+            }
+            >p{
+                margin-top: 7px;
+                text-align: center;
+            }
+        }
+    }
+}
+.hezuo{
+    background: #f4f4f4;
+    padding-bottom: 30px;
+    h2{
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        span{
+            font-size: 12px;
+            color: #9c9c9c;
+        }
+    }
+    .xuanze{
+        font-size: 0;
+        a{
+            border: 1px solid #dddddd;
+            display: inline-block;
+            margin-right: 11px;
+            margin-bottom: 11px;
+            img{
+                width: 150px;
+                height: 65px;
+            }
+            &:hover{
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        a:nth-child(6){
+            margin-right: auto;
+        }
+        a:nth-child(12){
+            margin-right: auto;
+        }
+    }
+}
+//.dibu{
+//  padding-top: 40px;
+//  background: #3b3b3b;
+//  height: 113px;
+//  .dibubox{
+//      >p{
+//          display: inline;
+//          font-size: 0;
+//          a{
+//              color: #a1a3ab;
+//              font-size:15px; 
+//              &:hover{
+//                  color: white;
+//              }
+//          }
+//      }
+//      >div{
+//          font-size:15px; 
+//          a{
+//              color: #a1a3ab;
+//          }
+//      }
+//  }
+//  .dibuicon{
+//      >p{
+//          display: inline;
+//          font-size: 0;
+//          float: right;
+//          position: relative;
+//          a{
+//              display: inline-block;
+//              height: 38px;
+//              width: 38px;
+//              background: url(../img/footer.png) no-repeat scroll 0% 0% transparent;
+//              margin-right: 15px;
+//          }
+//          img{
+//              display: none;
+//              position: absolute;
+//              left: -50px;
+//              bottom: 60px;
+//          }
+//          &:hover{
+//              img{
+//                  display: block;
+//              }
+//          }
+//      }
+//  }
+//}
+
+//@media (min-width: 150px){
+//  .dibuicon {
+//      width: 190px;
+//  }
+//}
+//@media (min-width: 357px){
+//  .dibubox {
+//      width: 443px;
+//  }
+//}
+@media (min-width: 768px){
+    .xuanze {
+        width: 1000px;
+    }
+}
+@media (min-width: 768px){
+    .xuanze {
+        width: 1000px;
+    }
+}
+@media (min-width: 991px){
+    .youxi img {
+        height: 67px;
+    }
+}
+@media (min-width: 373px){
+    .youxitu{
+        text-align: center;
+        width: 553px;
+    }
+}
+@media (min-width:312px) and (max-width:100%){
+    .youshizuotu{
+        img{
+            width: 312px;
+        }
+    }
+    
+}
+@media (min-width:768px) and (max-width:992px){
+    .nav{
+        >li{
+           >a{
+               padding-left: 5px;
+               padding-right: 5px;
+           } 
+        }
+           
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        width: 1000px;
+        padding-left: 14px;
+    }
+}
+@media (min-width: 810px){
+    .youshibox {
+        width: 815px;
+    }
+}
+
+
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0;
+    }
+}

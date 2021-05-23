@@ -1,0 +1,14 @@
+@charset "utf-8";
+@import "common";
+@import "carousel";
+.lieren{
+    .lierentu{
+        background: url("../img/game_bg_02.png") no-repeat left;
+        height: 480px;
+        h2{
+            float: right;
+            font-weight: bold;
+        }
+    }
+    
+}

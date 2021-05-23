@@ -1,0 +1,133 @@
+.pl0 {
+  padding-left: 0; }
+
+.mb45 {
+  margin-bottom: 45px; }
+
+.imgwrap img {
+  width: 100%; }
+
+header {
+  padding-top: 50px; }
+  header .navbar-default {
+    background-color: #222222;
+    border: none; }
+    header .navbar-default .navbar-nav > .active > a, header .navbar-default .navbar-nav > .active > a:hover {
+      background-color: #080808;
+      color: #fff; }
+    header .navbar-default .navbar-nav > li > a {
+      color: #9d9d9d; }
+  header .navbar {
+    margin-bottom: 0; }
+  header .navbar-brand {
+    padding: 7px 6px; }
+  header .bgwrap {
+    background-color: #2b80d9; }
+
+.dibu {
+  padding-top: 40px;
+  background: #3b3b3b;
+  height: 113px; }
+  .dibu .dibubox > p {
+    display: inline;
+    font-size: 0; }
+    .dibu .dibubox > p a {
+      color: #a1a3ab;
+      font-size: 15px; }
+      .dibu .dibubox > p a:hover {
+        color: white; }
+  .dibu .dibubox > div {
+    font-size: 15px; }
+    .dibu .dibubox > div a {
+      color: #a1a3ab; }
+  .dibu .dibuicon > p {
+    display: inline;
+    font-size: 0;
+    float: right;
+    position: relative; }
+    .dibu .dibuicon > p a {
+      display: inline-block;
+      height: 38px;
+      width: 38px;
+      background: url(../img/footer.png) no-repeat scroll 0% 0% transparent;
+      margin-right: 15px; }
+    .dibu .dibuicon > p img {
+      display: none;
+      position: absolute;
+      left: -50px;
+      bottom: 60px; }
+    .dibu .dibuicon > p:hover img {
+      display: block; }
+
+.lunbo_wrap {
+  position: relative;
+  /*border: 1px solid firebrick;*/
+  overflow: hidden;
+  width: 100%; }
+
+.pic_box {
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  padding: 0; }
+
+.pic_box li {
+  position: relative;
+  height: 100%;
+  display: inline-block; }
+
+.pic_box li img {
+  width: 100%;
+  display: block; }
+
+.pannel {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 1%;
+  text-align: center; }
+
+.pannel li {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #b7b7b7;
+  margin-right: 4px; }
+
+#left_arrow,
+#right_arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  display: block;
+  width: 24px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #000;
+  opacity: .3; }
+
+#left_arrow:hover,
+#right_arrow:hover {
+  opacity: .5; }
+
+#left_arrow {
+  left: 0; }
+
+#right_arrow {
+  right: 0; }
+
+.pannel .active {
+  background: red;
+  border-color: red; }
+
+.lieren .lierentu {
+  background: url("../img/game_bg_02.png") no-repeat left;
+  height: 480px; }
+  .lieren .lierentu h2 {
+    float: right;
+    font-weight: bold; }
