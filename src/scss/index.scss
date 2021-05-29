@@ -51,6 +51,7 @@
         padding: 40px 0;
         background-position:100% 100% ;
     }
+    
     h2{
         font-size: 48px;
         color: #0078d7;
@@ -66,6 +67,9 @@
     }
     .enginetitle{
         padding-bottom: 80px;
+    }
+    .yinqing{
+        margin-top: 50px;
     }
     .iconwrap{
         float: left;
@@ -219,6 +223,7 @@
     .youxitu{
         overflow: hidden;
         .youxibox{
+            width: 20%;
             img{
                 width: 67px;
                 height: 67px;
@@ -348,20 +353,20 @@
         height: 67px;
     }
 }
-@media (min-width: 373px){
+
+@media (min-width: 253px){
     .youxitu{
         text-align: center;
         width: 553px;
     }
 }
-@media (min-width:312px) and (max-width:100%){
-    .youshizuotu{
-        img{
-            width: 312px;
-        }
-    }
-    
-}
+//@media (min-width:212px) and (max-width:100%){
+//  .youshizuotu{
+//      img{
+//          width: 312px;
+//      }
+//  }
+//}
 @media (min-width:768px) and (max-width:992px){
     .nav{
         >li{
@@ -385,8 +390,6 @@
         width: 815px;
     }
 }
-
-
 @media (min-width: 768px){
     .navbar {
         border-radius: 0;

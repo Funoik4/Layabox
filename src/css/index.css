@@ -89,6 +89,8 @@ header {
     margin-bottom: 0; }
   .enginewrap .enginetitle {
     padding-bottom: 80px; }
+  .enginewrap .yinqing {
+    margin-top: 50px; }
   .enginewrap .iconwrap {
     float: left;
     width: 64px;
@@ -202,14 +204,16 @@ header {
       display: none; }
   .youxi .youxitu {
     overflow: hidden; }
-    .youxi .youxitu .youxibox img {
-      width: 67px;
-      height: 67px; }
-    .youxi .youxitu .youxibox:hover img {
-      opacity: 0.8; }
-    .youxi .youxitu .youxibox > p {
-      margin-top: 7px;
-      text-align: center; }
+    .youxi .youxitu .youxibox {
+      width: 20%; }
+      .youxi .youxitu .youxibox img {
+        width: 67px;
+        height: 67px; }
+      .youxi .youxitu .youxibox:hover img {
+        opacity: 0.8; }
+      .youxi .youxitu .youxibox > p {
+        margin-top: 7px;
+        text-align: center; }
 
 .hezuo {
   background: #f4f4f4;
@@ -250,14 +254,10 @@ header {
   .youxi img {
     height: 67px; } }
 
-@media (min-width: 373px) {
+@media (min-width: 253px) {
   .youxitu {
     text-align: center;
     width: 553px; } }
-
-@media (min-width: 312px) and (max-width: 100%) {
-  .youshizuotu img {
-    width: 312px; } }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .nav > li > a {
