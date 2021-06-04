@@ -96,7 +96,7 @@
     }
 }
 .youshi{
-    padding-top: 90px;
+    padding-top: 110px;
     padding-bottom: 90px;
     .container{
         .youshitu{
@@ -132,7 +132,7 @@
             padding-top: 15px;
         }
         .youshizuotu{
-            padding-top: 100px;
+            padding-top: 150px;
             img{
                 width:312px;
                 &:hover{
@@ -385,11 +385,11 @@
         padding-left: 14px;
     }
 }
-@media (min-width: 810px){
-    .youshibox {
-        width: 815px;
-    }
-}
+//@media (min-width: 810px){
+//  .youshibox {
+//      width: 815px;
+//  }
+//}
 @media (min-width: 768px){
     .navbar {
         border-radius: 0;
